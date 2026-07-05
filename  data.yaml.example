@@ -1,0 +1,9 @@
+# Detección de caídas — ajuste 'path' a la ubicación local de su dataset
+path: /ruta/local/dataset_caidas
+train: images/train
+val: images/val
+test: images/test
+nc: 2
+names:
+  0: fall
+  1: non_fall
